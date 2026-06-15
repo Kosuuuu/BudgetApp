@@ -33,7 +33,9 @@ jobs:
 
       - name: Build backend
         working-directory: backend
-        run: ./mvnw clean install -DskipTests
+        run: |
+          chmod +x ./mvnw
+          ./mvnw clean install -DskipTests
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
