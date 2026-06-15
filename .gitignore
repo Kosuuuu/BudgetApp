@@ -1,0 +1,30 @@
+# Java / Maven
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+backend/.env
+frontend/.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.7z
